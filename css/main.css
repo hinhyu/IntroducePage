@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth
+  }
+body {
+    background-color: #BDBDBD;
+}
+h3 {
+    font-family: 'Pretendard-Thin';
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 50px;
+    font-size: 20px;
+}
+/* 상단바 */
+
+.nav * {
+    display: inline;
+}
+
+.nav li {
+    margin: 35px;
+}
+
+.nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav ul {
+    padding-left: 0px;
+}
+
+.nav {
+    background-color: #848484;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+} 
+
+/* page 1 */
+
+#one {
+    background-size: cover;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 130px;
+}
+
+.profile {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.profile img {
+    border-radius: 30%;
+}
+
+/* page2 */
+
+#two {
+    padding-top: 160px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 130px;
+    display: flex;
+}
+.me{
+    flex: 1;
+}
+.intext {
+    flex: 2;
+    margin-top: 35px;
+    padding-left: 50px;
+}
+
+/* page3 */
+
+#three {
+    padding-top: 260px;
+    padding-bottom: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.por1{
+    flex: 1;
+}
+
+.por2{
+    flex: 1;
+}
+
+.por3{
+    flex: 1;
+}
+
+/* page4 */
+
+#four {
+    padding-top: 160px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 130px;
+    background-color: #010707;
+}
+
+.box{
+    background-image: url(../img/lion.jpg);
+    background-size: auto 650px;
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.content span:nth-child(1) {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+.content span:nth-child(2) {
+    font-size: 100px;
+    font-weight: bold;
+    color: #FF8000;
+}
